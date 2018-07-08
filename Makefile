@@ -1,6 +1,6 @@
 
 
-CXXFLAGS=-std=c++11 -Wall -Wextra -Og -ggdb
+CXXFLAGS=-std=c++14 -Wall -Wextra -Og -ggdb `pkg-config cairo --libs`
 SOURCES=main.cpp
 
 book_palette: main.cpp
