@@ -1,4 +1,3 @@
-
 #include <numeric>
 #include <iostream>
 #include <vector>
@@ -61,7 +60,6 @@ std::vector<std::pair<RGB, unsigned>> countColors(std::string path_to_file)
 {
 	return std::vector<std::pair<RGB, unsigned>>();
 }
-
 
 void salesmanSort(std::vector<std::pair<RGB, unsigned>> sequence)
 {
