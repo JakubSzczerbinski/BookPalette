@@ -1,12 +1,14 @@
-
-#include <numeric>
-#include <iostream>
-#include <vector>
-#include <map>
 #include <boost/optional.hpp>
+
 #include <cairo/cairo.h>
 #include <cmath>
 
+#include <podofo/podofo.h>
+
+#include <iostream>
+#include <map>
+#include <numeric>
+#include <vector>
 
 struct RGB
 {
@@ -190,7 +192,7 @@ int main()
 	, { RGB::fromInt(70, 240, 240), 1}
 	, { RGB::fromInt(240, 50, 230), 1}
 	, { RGB::fromInt(210, 245, 60), 1}
-	, { RGB::fromInt(250, 190, 190), 1}
+	// , { RGB::fromInt(250, 190, 190), 1}
 	// , { RGB::fromInt(0, 128, 128), 1}
 	// , { RGB::fromInt(230, 190, 255), 1}
 	// , { RGB::fromInt(170, 110, 40), 1}
