@@ -1,0 +1,8 @@
+
+file(GLOB_RECURSE SOURCES "*.cpp")
+file(GLOB_RECURSE HEADERS "*.hpp")
+
+file(GLOB_RECURSE OTHER_SOURCES "*.cc")
+file(GLOB_RECURSE OTHER_HEADERS "*.h")
+
+add_executable(book_palette ${SOURCES} ${HEADERS} ${OTHER_SOURCES} ${OTHER_HEADERS})
