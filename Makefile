@@ -1,4 +1,4 @@
-CXXFLAGS=-std=c++14 -I${HOME}/podofo/include -L${HOME}/podofo/lib -lpodofo -Wall -Wextra -Og -ggdb `pkg-config cairo --libs` -lpthread -lfreetype -lz -lfontconfig -ljpeg -ltif
+CXXFLAGS=-std=c++14 -I${HOME}/podofo/include -L${HOME}/podofo/lib -lpodofo -Wall -Wextra -Og -ggdb `pkg-config cairo --libs` -lpthread -lfreetype -lz -lfontconfig -ljpeg
 SOURCES=main.cpp
 
 book_palette: main.cpp
